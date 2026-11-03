@@ -366,9 +366,10 @@ src/strategy.py          partition search, refusals, interval solving
 src/montecarlo.py        shared-draw simulation, reactive stops
 src/cliff.py             the hinge test, the selection proof, the inversion
 src/charts.py            eight figures
-src/report.py            one self-contained HTML file
+src/report.py            the printable PDF report
+src/paper.py             A4 page composition
 tests/test_strategy.py   43 tests
-out/                     figures, report.html, _run.txt
+out/                     figures, report.pdf, _run.txt
 ```
 
 ```bash

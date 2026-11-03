@@ -338,7 +338,7 @@ def main() -> None:
         window_rows=window_rows, crossover=crossover, coverage=coverage,
         hinges=hinges, demo=demo, thresholds=thresholds,
         reconciled=reconciled, knots=KNOTS, seasons=SEASONS,
-        figures=figures, out_path=OUT / "report.html")
+        figures=figures, out_path=OUT / "report.pdf")
 
     say()
     say(f"report  {path}")
